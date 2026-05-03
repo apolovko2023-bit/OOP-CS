@@ -1,0 +1,15 @@
+# Секрети та ключі
+.env
+
+# Віртуальні оточення Python
+.venv/
+venv/
+my_env/
+
+# Кеш Python
+__pycache__/
+*.py[cod]
+
+# Логи ADK
+agents_log/
+*.log
