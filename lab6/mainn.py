@@ -104,8 +104,7 @@ while player.health > 0 and enemy.health > 0:
 
     if player.health <= 0:
         print("\n💀 ВОРОГ ПЕРЕМІГ!")
-        break
+        break 
 
-    turn += 1 
-
-    
+    turn += 1
+     
