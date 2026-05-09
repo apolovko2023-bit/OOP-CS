@@ -1,18 +1,23 @@
 [project]
-name = "oop"
+name = "my-project"
 version = "0.1.0"
 description = ""
 authors = [
     {name = "apolovko2023-bit",email = "apolovko2023@itcollege.lviv.ua"}
 ]
 readme = "README.md"
-requires-python = ">=3.14,<4.0"
+requires-python = ">=3.12"
 dependencies = [
-    "google-adk (>=1.32.0,<2.0.0)",
-    "python-dotenv (>=1.2.2,<2.0.0)"
 ]
 
+[tool.poetry]
+packages = [{include = "my_project", from = "src"}]
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
+
+[dependency-groups]
+test = [
+    "pytest (>=9.0.3,<10.0.0)"
+]
