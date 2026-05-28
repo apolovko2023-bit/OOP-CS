@@ -5,6 +5,8 @@ name = "pypi"
 
 [packages]
 requests = "*"
+google-adk = "*"
+python-dotenv = "*"
 
 [dev-packages]
 flake8 = "*"

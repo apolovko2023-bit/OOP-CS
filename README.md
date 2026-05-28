@@ -22,7 +22,6 @@
 - 📁 [Lab 4](./lab4/README.md)
 - 📁 [Lab 5](./lab5/README.md)
 - 📁 [Lab 6](./lab6/README.md)
-- 📁 [Lab 7](./lab7/README.md)
 - 📁 [Lab 8](./lab8/README.md)
 
 ---
