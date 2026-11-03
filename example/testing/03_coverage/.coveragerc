@@ -1,0 +1,9 @@
+[run]
+source = app
+branch = True
+
+[report]
+omit =
+    test_*.py
+    */tests/*
+    */.venv/*
